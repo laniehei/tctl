@@ -14,7 +14,6 @@ require (
 	github.com/olivere/elastic/v7 v7.0.29
 	github.com/pborman/uuid v1.2.1
 	github.com/stretchr/testify v1.7.0
-	github.com/temporalio/tctl-core v0.0.0-20211012160728-0f52dbf08e9d
 	github.com/uber-go/tally/v4 v4.1.1
 	github.com/urfave/cli v1.22.5
 	github.com/urfave/cli/v2 v2.3.0
@@ -23,6 +22,8 @@ require (
 	go.temporal.io/server v1.13.1-0.20211130011441-f888c28403dd
 	google.golang.org/grpc v1.42.0
 )
+
+require github.com/temporalio/tctl-kit v0.0.0-20211028215837-691490b1d26f
 
 require (
 	cloud.google.com/go v0.97.0 // indirect
@@ -71,7 +72,6 @@ require (
 	github.com/mitchellh/mapstructure v1.4.2 // indirect
 	github.com/oklog/run v1.1.0 // indirect
 	github.com/olivere/elastic v6.2.37+incompatible // indirect
-	github.com/olivere/elastic/v7 v7.0.29 // indirect
 	github.com/opentracing/opentracing-go v1.2.0 // indirect
 	github.com/pelletier/go-toml v1.9.4 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
